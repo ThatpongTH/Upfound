@@ -126,6 +126,12 @@ nav {
   object-fit: cover;
   opacity: 0.15;
 }
+.MVid {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+}
 .link{
   font-weight: 1200;
   text-decoration: none;
