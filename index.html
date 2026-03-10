@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Upfound – Lost&Found</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="upfound.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+<!-- NAV -->
+
+  <nav>
+    <a class="logo" href="#">
+      <img src="Logo.svg" style="max-width: 100%;" alt="Upfound Logo">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#whatwedo">What We Do</a></li>
+      <li><a href="#howitworks">How It Works</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <video autoplay muted loop id="MainVideo">
+       <source src="..\MainVid2.mp4" type="video/mp4">
+    </video>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="badge">
+      <span class="badge-dot"></span>
+      Start-Up จากนิสิตจุฬาฯ
+    </div>
+
+    <h1 class="hero-title">
+        <a class="logo" href="#">
+            <img src="Logo.svg" style="width: 500px; height: auto;" alt="Upfound Logo">
+        </a>
+      <span class="line-yellow">Smart Automation Lost & Found</span>
+    </h1>
+
+    <p class="hero-sub">
+      “AI software for CCTV cameras that  <strong>intelligently manages lost items</strong>
+      Helps reduce the problem of lost items so that people can live safer lives.”
+    </p>
+
+    <div class="hero-btns">
+      <button class="btn-primary">
+        <a class="link" href="workflow.html">Staff</a>
+      </button>
+      <button class="btn-secondary">
+        <a class="link" href="User.html">General Users</a>
+      </button>
+    </div>
+
+    <div class="scroll-indicator">
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS -->
+  <div class="stats-bar">
+    <div class="stat">
+      <div class="stat-num">3.2×</div>
+      <div class="stat-label">Average Revenue Lift</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">48H</div>
+      <div class="stat-label">Time to First Result</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">500+</div>
+      <div class="stat-label">Businesses Powered</div>
+    </div>
+    <div class="stat">
+      <div class="stat-num">99.9%</div>
+      <div class="stat-label">Uptime SLA</div>
+    </div>
+  </div>
+
+  <!-- FEATURES -->
+  <section class="features" id ="whatwedo">
+    <span class="section-label">What We Do</span>
+    <h2 class="section-title">Built to find<br>what's missing</h2>
+    <p class="section-sub">Upfound connects intelligence to every layer of your operation — no rip-and-replace.</p>
+    
+    <!-- Circle Container  -->
+    <div class="circle">
+      <div>
+        <img src="WorkFlow.svg" class="img-in-circle">
+      </div>
+    <div class="circle-container">
+      <img src="24.svg" class="img-in-circle">
+      <div class="Tip">Detection</div>
+    </div>
+    <div class="circle-container">
+      <img src="25.svg" class="img-in-circle">
+      <div class="Tip">Analysis</div>
+    </div>
+    <div class="circle-container">
+      <img src="26.svg" class="img-in-circle">
+      <div class="Tip">Confirm</div>
+    </div>
+    <div class="circle-container">
+      <img src="27.svg" class="img-in-circle">
+      <div class="Tip">Verify</div>
+    </div>
+    <div class="circle-container">
+      <img src="28.svg" class="img-in-circle">
+      <div class="Tip">Claim</div>
+    </div>
+    </div>
+    <!--<div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <div class="feature-title">Real-Time Intelligence</div>
+        <p class="feature-desc">Instant AI analysis across your live data streams. Spot opportunities and threats before they become costly.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <div class="feature-title">Precision Targeting</div>
+        <p class="feature-desc">AI-powered segmentation that adapts continuously — reaching the right customers at exactly the right moment.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">📈</div>
+        <div class="feature-title">Revenue Forecasting</div>
+        <p class="feature-desc">Predictive models trained on your industry's patterns. Know your revenue 90 days out with high confidence.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔗</div>
+        <div class="feature-title">Zero Rip & Replace</div>
+        <p class="feature-desc">Connect to your existing CRM, ERP, and data sources in minutes. No migration, no downtime, no excuses.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🛡️</div>
+        <div class="feature-title">Enterprise Security</div>
+        <p class="feature-desc">SOC2 Type II certified. Your data stays yours. Encrypted end-to-end with role-based access controls.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🤖</div>
+        <div class="feature-title">Autonomous Agents</div>
+        <p class="feature-desc">Let AI handle repetitive decisions so your team focuses only on what humans do best — strategy.</p>
+      </div>
+    </div>
+  </section>
+<div class="section-wrapper">
+
+    <!-- LEFT: Text content -->
+<div class="section-wrapper">
+
+    <!-- LEFT: Text content -->
+    <div class="left">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Real-Time Detection
+      </div>
+
+      <h2 class="headline">
+        <span class="highlight">Agentic AI</span> Detection
+      </h2>
+
+      <p class="description">
+        An AI system that transforms existing CCTV cameras to instantly detect and alert
+        when items are left behind in an area helps detect items <strong>before they are discarded,</strong> 
+      </p>
+
+
+    </div>
+
+    <!-- RIGHT: Empty slot — add your content here -->
+    <div class="right">
+      <img src="F1.png" alt="Feature 1 Image" style="width:100%; height:auto; border-radius:8px; object-fit:cover;">
+    </div>
+
+  </div>
+
+
+  <!-- SECTION 2: slot ซ้าย, content ขวา -->
+  <div class="section-wrapper">
+
+    <!-- LEFT: Empty slot -->
+    <div class="right" style="border-left:none; border-right: 1px solid rgba(245,200,0,0.08);">
+      <!-- ↓↓↓ ใส่รูปหรือ component ที่ต้องการตรงนี้ ↓↓↓ -->
+      <img src="F2.png" alt="Feature 2 Image" style="width:100%; height:auto; border-radius:8px; object-fit:cover;">
+    
+    </div>
+
+    <!-- RIGHT: Text content -->
+    <div class="left">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Smart Analytics
+      </div>
+
+      <h2 class="headline">
+        Workflow <span class="highlight">Automation</span>
+      </h2>
+
+      <p class="description">
+        The system instantly records lost items to the dashboard upon AI detection, 
+        <strong>eliminating redundant administrative tasks</strong>, saving organizations money and 
+        reducing management time, leading to faster returns and preventing items from being discarded.
+      </p>
+
+
+    </div>
+
+  </div>
+
+
+  <!-- SECTION 3: content ซ้าย, slot ขวา -->
+<div class="section-wrapper">
+
+    <!-- LEFT: Text content -->
+    <div class="left">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Instant Alerts
+      </div>
+
+      <h2 class="headline">
+        <span class="highlight">Smart </span> User <span class="highlight">Self</span> Service
+      </h2>
+
+      <p class="description">
+        This web app allows users to check the status of lost items themselves, 24/7. 
+        It <strong>helps owners find their belongings within minutes</strong>, reducing the workload for staff and 
+        increasing the chances of recovering lost items without needing to purchase replacements.
+      </p>
+
+
+    </div>
+
+    <!-- RIGHT: Empty slot -->
+    <div class="right">
+      <!-- ↓↓↓ ใส่รูปหรือ component ที่ต้องการตรงนี้ ↓↓↓ -->
+      <img src="F3.png" alt="Feature 1 Image" style="width:100%; height:auto; border-radius:8px; object-fit:cover;">
+    
+    </div>
+
+</div>
+
+  <!-- HOW IT WORKS -->
+  <section class="how"  id="howitworks">
+    <div class="how-inner">
+      <div>
+        <span class="section-label">How It Works</span>
+        <div class="section-title">Enhancing the search for <strong>lost items</strong></div>
+
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">01</div>
+            <div class="step-content">
+              <h3>Connect Your Sources</h3>
+              <p>Connecting to your CCTV cameras makes it easy to use and provides quick access.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">02</div>
+            <div class="step-content">
+              <h3>AI Models Calibrate</h3>
+              <p>Upfound is a smart AI system that learns from your data quickly, allowing it to adapt precisely to your specific needs.
+              </p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">03</div>
+            <div class="step-content">
+              <h3>Insights Start Flowing</h3>
+              <p>Upfound provides valuable insights from your data, helping you make better decisions.</p>
+            </div>
+          </div>
+          <div class="step">
+            <div class="step-num">04</div>
+            <div class="step-content">
+              <h3>Grow Continuously</h3>
+              <p>Upfound effectively reduces costs and optimizes budget and human resources.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mock Dashboard -->
+      <div class="dashboard-mock">
+        <div class="dash-header">
+          <div class="dash-dot"></div>
+          <div class="dash-dot"></div>
+          <div class="dash-dot"></div>
+          <span class="dash-title">upfound — live dashboard</span>
+        </div>
+        <div class="dash-body">
+          <div class="dash-row">
+            <div class="dash-card">
+              <div class="dash-card-label">REVENUE TODAY</div>
+              <div class="dash-card-val">$84.2K</div>
+              <div class="dash-card-sub">↑ +12.4% vs yesterday</div>
+            </div>
+            <div class="dash-card">
+              <div class="dash-card-label">AI SIGNALS</div>
+              <div class="dash-card-val">247</div>
+              <div class="dash-card-sub">↑ 18 new today</div>
+            </div>
+          </div>
+          <div class="dash-card" style="padding: 18px 16px;">
+            <div class="dash-card-label" style="margin-bottom:14px;">TOP OPPORTUNITIES</div>
+            <div class="dash-bar-row">
+              <span class="dash-bar-label">Upsell Q2</span>
+              <div class="dash-bar-track"><div class="dash-bar-fill" style="width:82%"></div></div>
+              <span class="dash-bar-pct">82%</span>
+            </div>
+            <div class="dash-bar-row">
+              <span class="dash-bar-label">Churn Risk</span>
+              <div class="dash-bar-track"><div class="dash-bar-fill" style="width:64%"></div></div>
+              <span class="dash-bar-pct">64%</span>
+            </div>
+            <div class="dash-bar-row" style="border:none">
+              <span class="dash-bar-label">New Segment</span>
+              <div class="dash-bar-track"><div class="dash-bar-fill" style="width:91%"></div></div>
+              <span class="dash-bar-pct">91%</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="cta-section" id="contact">
+    <h2 class="cta-title">Ready to be<br><span>Upfound?</span></h2>
+    <p class="cta-sub"> Don't let lost items become a big deal. Join us today! : </p>
+    <div class="cta-input-row">
+      <input class="cta-input" type="email" placeholder="Enter your work email" />
+      <button class="cta-btn">Get Access →</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">Upfound</div>
+    <div class="footer-links">
+      <a href="#">Privacy</a>
+      <a href="#">Terms</a>
+      <a href="#">Contact</a>
+    </div>
+    <div class="footer-copy">© 2026 Upfound Inc. All rights reserved.</div>
+  </footer>
+ <script src="upfound.js"></script>
+</body>
+</html>
