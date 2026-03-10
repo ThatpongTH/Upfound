@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Workflow – Upfound</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="workflow.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="nav-logo" href="index.html">
+      <div class="logo-icon">U</div>
+      <span class="logo-text">Upfound</span>
+    </a>
+    <a class="nav-back" href="index.html">← Back</a>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="badge"><span class="badge-dot"></span>Claim Workflow</div>
+    <h1 class="hero-title">
+      <span class="white">Safe &amp;</span>
+      <span class="yellow">Verified</span>
+    </h1>
+    <p class="hero-sub">ระบบตรวจสอบและส่งคืนของหายอย่างปลอดภัย ด้วย AI และ QR Claim Pass</p>
+  </section>
+
+  <!-- WORKFLOW DIAGRAM -->
+  <section class="workflow">
+    <div class="wf-wrap">
+
+      <!-- LEFT COLUMN -->
+      <div class="wf-col left-col">
+
+        <!-- Node: กล้อง Detect -->
+        <div class="wf-node node-detect" data-aos>
+          <div class="node-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <!-- Box -->
+              <path d="M8 18 L24 10 L40 18 L40 36 L24 44 L8 36 Z"/>
+              <path d="M8 18 L24 26 L40 18"/>
+              <path d="M24 26 L24 44"/>
+              <!-- Scan lines -->
+              <line x1="14" y1="21" x2="20" y2="24" opacity="0.5"/>
+              <line x1="14" y1="26" x2="20" y2="29" opacity="0.5"/>
+            </svg>
+          </div>
+          <div class="node-label">กล้อง Detect<br/>ของหาย</div>
+        </div>
+
+        <!-- Connector down -->
+        <div class="connector-v" data-aos></div>
+
+        <!-- Node: Upfound -->
+        <div class="wf-node node-upfound" data-aos>
+          <div class="node-brand">Up|Found</div>
+        </div>
+
+        <!-- Connector arrow right → center -->
+        <div class="connector-h-right" data-aos>
+          <div class="conn-line"></div>
+          <div class="conn-arrow">→</div>
+        </div>
+
+      </div>
+
+      <!-- CENTER: Phone -->
+      <div class="wf-center" data-aos>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+
+            <div class="ps-topbar">
+              <span class="ps-time">5:10</span>
+              <span class="ps-title">Lost &amp; Found – USER MODE</span>
+            </div>
+
+            <div class="ps-shield">🛡️</div>
+
+            <div class="ps-security">
+              <div class="ps-sec-title">Security Question:</div>
+              <div class="ps-sec-q">What is the lock screen wallpaper on the phone inside?</div>
+              <div class="ps-input">Enter your answer...</div>
+              <div class="ps-submit-btn">Submit</div>
+            </div>
+
+            <div class="ps-claim-pass">
+              <div class="ps-pass-label">Digital Claim Pass</div>
+              <div class="ps-qr">
+                <div class="mini-qr"></div>
+              </div>
+              <div class="ps-verified">✅ Verified</div>
+              <div class="ps-pickup-btn">Show to Staff for Pickup</div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Glow ring -->
+        <div class="phone-glow"></div>
+      </div>
+
+      <!-- RIGHT COLUMN -->
+      <div class="wf-col right-col">
+
+        <!-- Connector arrow left ← center -->
+        <div class="connector-h-left" data-aos>
+          <div class="conn-arrow">→</div>
+          <div class="conn-line"></div>
+        </div>
+
+        <!-- Node: Verify -->
+        <div class="wf-node node-verify" data-aos>
+          <div class="node-icon verify-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="24" cy="24" r="18"/>
+              <circle cx="24" cy="24" r="12"/>
+              <polyline points="19,24 23,28 30,20"/>
+              <!-- Gear teeth -->
+              <path d="M24 6 L24 2" /><path d="M24 46 L24 42"/>
+              <path d="M6 24 L2 24"/><path d="M46 24 L42 24"/>
+              <path d="M10.1 10.1 L7.3 7.3"/><path d="M40.7 40.7 L37.9 37.9"/>
+              <path d="M37.9 10.1 L40.7 7.3"/><path d="M7.3 40.7 L10.1 37.9"/>
+            </svg>
+          </div>
+          <div class="node-text">
+            <div class="node-title">Verify กับระบบ</div>
+            <div class="node-sub">Qr Claim Pass<br/>และเจ้ากน้าที่</div>
+          </div>
+        </div>
+
+        <!-- Connector down -->
+        <div class="connector-v right-v" data-aos></div>
+
+        <!-- Node: รับของคืน -->
+        <div class="wf-node node-receive" data-aos>
+          <div class="node-icon receive-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <!-- Handshake / package -->
+              <path d="M6 32 C6 32 10 28 16 30 L24 34 L32 30 C38 28 42 32 42 32"/>
+              <path d="M16 30 L16 22 C16 20 18 18 20 18 L28 18 C30 18 32 20 32 22 L32 30"/>
+              <rect x="20" y="12" width="8" height="6" rx="2"/>
+              <polyline points="20,18 24,22 28,18"/>
+              <!-- Check badge -->
+              <circle cx="38" cy="14" r="8" fill="#F5C800" stroke="#F5C800"/>
+              <polyline points="34,14 37,17 42,11" stroke="#111" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <div class="node-label">รับของคืน</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- STEPS LEGEND -->
+  <section class="steps-legend">
+    <div class="legend-inner">
+      <div class="legend-item" data-aos>
+        <div class="legend-num">01</div>
+        <div class="legend-text">
+          <div class="legend-title">กล้อง Detect ของหาย</div>
+          <div class="legend-desc">ระบบกล้อง AI ตรวจจับสิ่งของที่ถูกทิ้งไว้หรือหายในพื้นที่ และบันทึกลงระบบ Upfound อัตโนมัติ</div>
+        </div>
+      </div>
+      <div class="legend-divider"></div>
+      <div class="legend-item" data-aos>
+        <div class="legend-num">02</div>
+        <div class="legend-text">
+          <div class="legend-title">Verify & Claim Pass</div>
+          <div class="legend-desc">เจ้าของตอบ Security Question เพื่อพิสูจน์ความเป็นเจ้าของ จากนั้นระบบออก Digital Claim Pass พร้อม QR Code</div>
+        </div>
+      </div>
+      <div class="legend-divider"></div>
+      <div class="legend-item" data-aos>
+        <div class="legend-num">03</div>
+        <div class="legend-text">
+          <div class="legend-title">รับของคืนจากเจ้าหน้าที่</div>
+          <div class="legend-desc">แสดง QR Claim Pass ให้เจ้าหน้าที่ scan เพื่อยืนยันและรับของคืนอย่างปลอดภัย</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('aos-in'); });
+    }, { threshold: 0.15 });
+    document.querySelectorAll('[data-aos]').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
